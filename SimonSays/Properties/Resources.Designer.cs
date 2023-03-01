@@ -88,6 +88,16 @@ namespace SimonSays.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Pharoahe_Monch___Simon_Says__Instrumental_ {
+            get {
+                object obj = ResourceManager.GetObject("Pharoahe Monch - Simon Says [Instrumental]", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream red {

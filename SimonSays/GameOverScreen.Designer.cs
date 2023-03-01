@@ -48,6 +48,7 @@
             // patternLabel
             // 
             this.patternLabel.AutoSize = true;
+            this.patternLabel.BackColor = System.Drawing.Color.Transparent;
             this.patternLabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.patternLabel.ForeColor = System.Drawing.Color.White;
             this.patternLabel.Location = new System.Drawing.Point(40, 209);
@@ -81,9 +82,10 @@
             // 
             // GameOverScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.lengthLabel);
             this.Controls.Add(this.patternLabel);
